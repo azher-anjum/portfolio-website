@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="icon" href="favicon_io/favicon.ico">
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">Azher<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hi! I am</h1>
+          <span class="auto">Azher Anjum</span>
+          <p>
+            More focus on value added activities
+            along with routine activities, 
+            Always ready to learn new
+            technologies and implement in real
+            life scenario.
+          </p>
+          <a href="https://www.linkedin.com/in/azher-anjum"><button>Hire Me</button></a>
+        </div>
+        <div class="main-two">
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My<br /><span>Projects</span></h1>
+        <p>
+          working on multiple projects like qr code scanner and digital clock using python and 
+          created few Website to upskill knowledge.
+        </p>
+        <a href="https://drive.google.com/file/d/1YvUI_akBiYWd0EtOePLYJadeTwh6Gknc/view?usp=sharing"><button class="button">Download CV</button></a>
+        <div class="projects-div flex div-1">
+          <img src="./4.jpg" alt="" />
+          <h3>Portfolio Website</h3>
+          <p>
+            Personal Portfolio Website of myself created using html,css and javascript
+          </p>
+          <button>Preview</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./2.jpg" />
+          <h3>Travel Website</h3>
+          <p>
+            Created a travel Website where you can get various information about different destination.
+          </p>
+          <button>Preview</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./3.jpg" alt="" />
+          <h3>Landing Page</h3>
+          <p>
+            A Simple static Landing Page 
+          </p>
+          <button>Preview</button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Azher Anjum</span>
+          <p>
+            4th Year undergraduate Software engineer with excellent problem solving skill and ability
+            To perform well in a team, passionate to learn. More focus on value added activities
+            along with routine activities
+
+          </p>
+          <div class="btns">
+            <a href="https://drive.google.com/file/d/1YvUI_akBiYWd0EtOePLYJadeTwh6Gknc/view?usp=sharing"><button>Download CV</button></a>
+            <a href="https://www.linkedin.com/in/azher-anjum"><button>Contact Me</button></a>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Leave a <span>Mail</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">Thank You Visit Again</div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/azher-anjum"><i class="fa-brands fa-linkedin"></i></a>
+          <i class="fa-brands fa-github"></i>
+          <a href="https://wa.me/+919693407282"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://wa.me/+919693407282"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Azher Anjum", "Software Engineer", "Web Developer"],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
